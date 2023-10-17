@@ -50,7 +50,7 @@ async def genStr(_, msg: Message):
                await bot.send_message(
                    chat_id=msg.chat.id,
                    text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/safothebot).",
-                   parse_mode="markdown",
+                   parse_mode=enums.ParseMode.MARKDOWN,
                    disable_web_page_preview=True
                )
                return
@@ -72,7 +72,7 @@ async def genStr(_, msg: Message):
             await bot.send_message(
                 chat_id=msg.chat.id,
                 text="**Something Went Wrong. Contact My [Support Group](https://t.me/safothebot).**",
-                parse_mode="markdown",
+                parse_mode=enums.ParseMode.MARKDOWN,
                 disable_web_page_preview=True
             )
             return
