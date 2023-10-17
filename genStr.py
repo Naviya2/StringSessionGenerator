@@ -38,7 +38,7 @@ async def genStr(_, msg: Message):
         await bot.send_message(
             chat_id=msg.chat.id,
             text="You are Banned. Contact My [Support Group](https://t.me/safothebot)",
-            reply_to_message_id=msg.message_id
+            reply_to_message_id=msg_id
         )
         return
     ## Doing Force Sub 🤣
