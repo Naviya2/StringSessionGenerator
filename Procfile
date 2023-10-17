@@ -1,1 +1,1 @@
-worker: python3.10.6 genStr.py
+worker: python3 genStr.py
