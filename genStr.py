@@ -65,7 +65,7 @@ async def genStr(_, msg: Message):
                         ]
                     ]
                 ),
-                parse_mode="markdown"
+                parse_mode=enums.ParseMode.MARKDOWN
             )
             return
         except Exception:
