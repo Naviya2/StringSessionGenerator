@@ -12,7 +12,6 @@ from pyrogram.errors import (
     PhoneNumberInvalid, ApiIdInvalid,
     PhoneCodeInvalid, PhoneCodeExpired, UserNotParticipant
 )
-from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, UsernameNotOccupied, ChatAdminRequired, PeerIdInvalid
 from creds import Credentials
 
 API_TEXT = """👋🏻 **Hi {}**,
